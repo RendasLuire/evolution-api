@@ -3,7 +3,7 @@ services:
     name: evolution-api
     env: node
     plan: free
-    buildCommand: npm install
+    buildCommand: npm install && npx prisma generate
     startCommand: npm start
     envVars:
       - key: SERVER_PORT
