@@ -110,6 +110,7 @@ model Instance {
   N8nSetting              N8nSetting[]
   Evoai                   Evoai[]
   EvoaiSetting            EvoaiSetting?
+  @@map("Instance")
 }
 
 model Session {
